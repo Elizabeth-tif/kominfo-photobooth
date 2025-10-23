@@ -1,0 +1,7 @@
+{
+  "name": "React PhotoBooth",
+  "description": "A fun photobooth application that lets you capture photos from your webcam and instantly places them in a stylish frame. Choose a frame, strike a pose, and download your picture!",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
