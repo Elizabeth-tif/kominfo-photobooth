@@ -17,8 +17,5 @@ jobs:
         run: npm ci
       - name: Build
         run: npm run build
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+      # Deploy step removed to avoid push permission issues. If you want automatic deploy later,
+      # re-add a deploy step here and configure a PAT or enable workflow write permissions.
