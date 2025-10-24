@@ -4,6 +4,11 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig(({ mode }) => {
     return {
+      // Build output configured to `docs/` so GitHub Pages can serve the site from this repo folder.
+      build: {
+        outDir: 'docs',
+        emptyOutDir: true,
+      },
       // base is set for GitHub Pages project site. Change or remove if you deploy elsewhere.
       base: '/kominfo-photobooth/',
       server: {
