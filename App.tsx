@@ -209,11 +209,12 @@ const App: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-100 via-pink-100 to-blue-200 flex flex-col items-center justify-center p-4 sm:p-6 lg:p-8 space-y-6">
-        <header className="text-center">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-800 tracking-tight">
-                Kominfo Photobooth ♡
-            </h1>
-        </header>
+    <header className="text-center">
+      <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-800 tracking-tight">
+        Kominfo Photobooth ♡
+      </h1>
+  <p className="mt-3 text-lg sm:text-xl font-medium text-gray-700">Created with love by Elizabeth Gita</p>
+    </header>
         
         <div className="w-full max-w-4xl flex flex-col items-center space-y-4">
             <div className="w-full flex justify-center items-center" style={{ height: `${BASE_PREVIEW_HEIGHT_PX * previewScale}px`}}>
